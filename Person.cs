@@ -1,5 +1,6 @@
 public class Person
 {
+    //start member variable with an underscore
 public string _givenName = "";
 public string _familyName = "";
 
@@ -8,12 +9,12 @@ public string _familyName = "";
 public Person()
 {
 }
-
+// a method that displays the persons's full name as used in eastern countries
 public void ShowEasternName()
 {
     Console.WriteLine($"{_familyName}, {_givenName}");
 }
-
+// a method that displays the persons's full name as used in western countries
 public void ShowWesternName()
 {
     Console.WriteLine($"{_givenName}, {_familyName}");
