@@ -1,10 +1,13 @@
 using System;
 
 public class Resume
-{
+{// Resume has job description and a name is included.
+// However our Job class has taken care of our job description
+// So we only need to include our name in the resume
     public string _name;
 
     // Make sure to initialize your list to a new List before you use it.
+    //Remember our Resume must include the jobs, so we bring the job here in our resume
     public List<Job> _jobs = new List<Job>();
 
     public void Display()
